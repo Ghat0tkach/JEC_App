@@ -1,4 +1,5 @@
 import 'package:demo/pages/login_page.dart';
+import 'package:demo/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: WelcomeBackPage(),
     );
   }
 }
